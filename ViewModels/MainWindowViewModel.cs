@@ -6,7 +6,8 @@ namespace BackgroundColorIssue.ViewModels
     {
         public string Greeting => "Welcome to Avalonia!";
 
-        public Brush BackgroundColor = new SolidColorBrush(Colors.Red);
+
+        public Brush BackgroundColor => new SolidColorBrush(Colors.Red);
 
     }
 }
